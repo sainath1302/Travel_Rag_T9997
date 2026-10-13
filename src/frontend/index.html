@@ -1,0 +1,602 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="TravelMind - AI-powered personalized travel recommendation and itinerary generation system"
+    >
+
+    <title>TravelMind | AI Travel Planner</title>
+
+    <link
+        rel="stylesheet"
+        href="/css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span class="logo-icon">✈️</span>
+            <span>TravelMind</span>
+        </div>
+
+
+        <nav class="nav-links">
+
+            <a href="#home">Home</a>
+
+            <a href="#planner">Plan Trip</a>
+
+            <a href="#about">About</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+
+        <!-- ================= HERO ================= -->
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+            <div class="hero-overlay"></div>
+
+
+            <div class="hero-content">
+
+                <div class="badge">
+                    ✨ AI-Powered Travel Recommendation
+                </div>
+
+
+                <h1>
+                    Plan Your Perfect
+                    <span>Indian Journey</span>
+                </h1>
+
+
+                <p>
+                    Discover destinations and generate
+                    personalized day-by-day itineraries
+                    using Retrieval-Augmented Generation.
+                </p>
+
+
+                <a
+                    href="#planner"
+                    class="hero-button"
+                >
+                    Start Planning
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PLANNER ================= -->
+
+        <section
+            class="planner-section"
+            id="planner"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    TRAVEL PLANNER
+                </span>
+
+
+                <h2>
+                    Tell us about your trip
+                </h2>
+
+
+                <p>
+                    Enter your travel preferences and
+                    our AI will create a personalized
+                    recommendation and itinerary.
+                </p>
+
+            </div>
+
+
+            <div class="planner-card">
+
+
+                <!-- TRAVEL QUERY -->
+
+                <div class="form-group">
+
+                    <label for="query">
+                        Describe your trip
+                    </label>
+
+
+                    <textarea
+                        id="query"
+                        placeholder="Example: I want a peaceful hill station for 4 days with trekking, waterfalls and beautiful scenery."
+                    ></textarea>
+
+                </div>
+
+
+                <!-- DAYS + BUDGET -->
+
+                <div class="form-row">
+
+
+                    <div class="form-group">
+
+                        <label for="days">
+                            Number of Days
+                        </label>
+
+
+                        <select id="days">
+
+                            <option value="">
+                                Select days
+                            </option>
+
+                            <option value="2">
+                                2 Days
+                            </option>
+
+                            <option value="3">
+                                3 Days
+                            </option>
+
+                            <option value="4">
+                                4 Days
+                            </option>
+
+                            <option value="5">
+                                5 Days
+                            </option>
+
+                            <option value="7">
+                                7 Days
+                            </option>
+
+                            <option value="10">
+                                10 Days
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="budget">
+                            Budget
+                        </label>
+
+
+                        <select id="budget">
+
+                            <option value="">
+                                Select budget
+                            </option>
+
+                            <option value="budget">
+                                Budget
+                            </option>
+
+                            <option value="moderate">
+                                Moderate
+                            </option>
+
+                            <option value="luxury">
+                                Luxury
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TRIP TYPE + TRAVELLER -->
+
+                <div class="form-row">
+
+
+                    <div class="form-group">
+
+                        <label for="trip-type">
+                            Trip Type
+                        </label>
+
+
+                        <select id="trip-type">
+
+                            <option value="">
+                                Select trip type
+                            </option>
+
+                            <option value="adventure">
+                                Adventure
+                            </option>
+
+                            <option value="nature">
+                                Nature
+                            </option>
+
+                            <option value="heritage">
+                                Heritage
+                            </option>
+
+                            <option value="spiritual">
+                                Spiritual
+                            </option>
+
+                            <option value="relaxation">
+                                Relaxation
+                            </option>
+
+                            <option value="wildlife">
+                                Wildlife
+                            </option>
+
+                            <option value="beach">
+                                Beach
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="traveller">
+                            Traveller Type
+                        </label>
+
+
+                        <select id="traveller">
+
+                            <option value="">
+                                Select traveller type
+                            </option>
+
+                            <option value="solo">
+                                Solo
+                            </option>
+
+                            <option value="couple">
+                                Couple
+                            </option>
+
+                            <option value="family">
+                                Family
+                            </option>
+
+                            <option value="friends">
+                                Friends
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ACTIVITIES -->
+
+                <div class="form-group">
+
+                    <label for="activities">
+                        Preferred Activities
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="activities"
+                        placeholder="Trekking, waterfalls, photography..."
+                    >
+
+                </div>
+
+
+                <!-- BUTTON -->
+
+                <button
+                    id="recommendButton"
+                    class="recommend-button"
+                    type="button"
+                >
+
+                    <span class="button-icon">
+                        🔍
+                    </span>
+
+                    <span>
+                        Generate Travel Plan
+                    </span>
+
+                </button>
+
+
+                <!-- LOADING -->
+
+                <div
+                    id="loading"
+                    class="loading hidden"
+                >
+
+                    <div class="loader"></div>
+
+                    <p>
+                        Finding relevant destinations
+                        and creating your itinerary...
+                    </p>
+
+                    <span>
+                        This may take a little while.
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESULTS ================= -->
+
+        <section
+            id="results"
+            class="results-section hidden"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    AI RECOMMENDATION
+                </span>
+
+
+                <h2>
+                    Your Personalized Travel Plan
+                </h2>
+
+
+                <p>
+                    Generated using your preferences
+                    and retrieved travel information.
+                </p>
+
+            </div>
+
+
+            <div class="result-card">
+
+
+                <div class="result-header">
+
+                    <div class="result-icon">
+                        ✨
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+                            Travel Recommendation
+                        </h3>
+
+                        <p>
+                            AI-generated itinerary
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="recommendation"
+                    class="recommendation"
+                ></div>
+
+
+            </div>
+
+
+            <div class="plan-again-container">
+
+                <button
+                    id="planAgain"
+                    class="plan-again"
+                    type="button"
+                >
+                    ← Plan Another Trip
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section
+            class="about-section"
+            id="about"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    ABOUT THE SYSTEM
+                </span>
+
+
+                <h2>
+                    Intelligent Travel Recommendation
+                </h2>
+
+
+                <p>
+                    TravelMind uses Retrieval-Augmented
+                    Generation to retrieve relevant
+                    travel information and generate
+                    personalized recommendations.
+                </p>
+
+            </div>
+
+
+            <div class="architecture">
+
+
+                <div class="architecture-card">
+
+                    <div class="architecture-icon">
+                        🗄️
+                    </div>
+
+                    <h3>
+                        PostgreSQL
+                    </h3>
+
+                    <p>
+                        Stores structured travel
+                        destination information.
+                    </p>
+
+                </div>
+
+
+                <div class="architecture-arrow">
+                    →
+                </div>
+
+
+                <div class="architecture-card">
+
+                    <div class="architecture-icon">
+                        🔎
+                    </div>
+
+                    <h3>
+                        Hybrid Retrieval
+                    </h3>
+
+                    <p>
+                        Qdrant, BM25 and BGE reranking
+                        retrieve relevant destinations.
+                    </p>
+
+                </div>
+
+
+                <div class="architecture-arrow">
+                    →
+                </div>
+
+
+                <div class="architecture-card">
+
+                    <div class="architecture-icon">
+                        🤖
+                    </div>
+
+                    <h3>
+                        Local LLM
+                    </h3>
+
+                    <p>
+                        Generates personalized travel
+                        recommendations and itineraries.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                ✈️ TravelMind
+            </div>
+
+
+            <p>
+                RAG-Driven Intelligent Travel
+                Recommendation and Personalized
+                Itinerary Generation System
+            </p>
+
+
+            <div class="footer-line"></div>
+
+
+            <span>
+                © 2026 TravelMind. All rights reserved.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Markdown parser -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"
+    ></script>
+
+
+    <!-- Application JavaScript -->
+
+    <script
+        src="/js/app.js"
+    ></script>
+
+</body>
+
+</html>

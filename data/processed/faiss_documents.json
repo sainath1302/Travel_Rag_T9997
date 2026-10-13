@@ -1,0 +1,602 @@
+[
+  {
+    "id": "1",
+    "destination_name": "Goa",
+    "state": "Goa",
+    "region": "West India"
+  },
+  {
+    "id": "2",
+    "destination_name": "Ladakh (Leh)",
+    "state": "Ladakh",
+    "region": "North India"
+  },
+  {
+    "id": "3",
+    "destination_name": "Jaipur",
+    "state": "Rajasthan",
+    "region": "North India"
+  },
+  {
+    "id": "4",
+    "destination_name": "Varanasi (Kashi)",
+    "state": "Uttar Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "5",
+    "destination_name": "Agra",
+    "state": "Uttar Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "6",
+    "destination_name": "Udaipur",
+    "state": "Rajasthan",
+    "region": "West India"
+  },
+  {
+    "id": "7",
+    "destination_name": "Kerala Backwaters (Alappuzha & Kumarakom)",
+    "state": "Kerala",
+    "region": "South India"
+  },
+  {
+    "id": "8",
+    "destination_name": "Coorg (Kodagu)",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "9",
+    "destination_name": "Ziro Valley",
+    "state": "Arunachal Pradesh",
+    "region": "Northeast India"
+  },
+  {
+    "id": "10",
+    "destination_name": "Mawlynnong & nearby (including Living Root Bridges region)",
+    "state": "Meghalaya",
+    "region": "Northeast India"
+  },
+  {
+    "id": "11",
+    "destination_name": "Shimla",
+    "state": "Himachal Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "12",
+    "destination_name": "Dharamshala & McLeod Ganj",
+    "state": "Himachal Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "13",
+    "destination_name": "Manali",
+    "state": "Himachal Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "14",
+    "destination_name": "Tawang",
+    "state": "Arunachal Pradesh",
+    "region": "Northeast India"
+  },
+  {
+    "id": "15",
+    "destination_name": "Khajjiar",
+    "state": "Himachal Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "16",
+    "destination_name": "Spiti Valley",
+    "state": "Himachal Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "17",
+    "destination_name": "Nubra Valley",
+    "state": "Ladakh",
+    "region": "North India"
+  },
+  {
+    "id": "18",
+    "destination_name": "Pangong Lake (Pangong Tso)",
+    "state": "Ladakh",
+    "region": "North India"
+  },
+  {
+    "id": "19",
+    "destination_name": "Ooty (Udhagamandalam)",
+    "state": "Tamil Nadu",
+    "region": "South India"
+  },
+  {
+    "id": "20",
+    "destination_name": "Munnar",
+    "state": "Kerala",
+    "region": "South India"
+  },
+  {
+    "id": "21",
+    "destination_name": "Kanyakumari",
+    "state": "Tamil Nadu",
+    "region": "South India"
+  },
+  {
+    "id": "22",
+    "destination_name": "Rann of Kutch (White Desert, Dhordo)",
+    "state": "Gujarat",
+    "region": "West India"
+  },
+  {
+    "id": "23",
+    "destination_name": "Dhanushkodi (Ghost Town & Beach)",
+    "state": "Tamil Nadu",
+    "region": "South India"
+  },
+  {
+    "id": "24",
+    "destination_name": "Chitrakote Falls",
+    "state": "Chhattisgarh",
+    "region": "Central India"
+  },
+  {
+    "id": "25",
+    "destination_name": "Gokarna",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "26",
+    "destination_name": "Pondicherry (Puducherry)",
+    "state": "Puducherry",
+    "region": "South India"
+  },
+  {
+    "id": "27",
+    "destination_name": "Hampi",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "28",
+    "destination_name": "Majuli Island",
+    "state": "Assam",
+    "region": "Northeast India"
+  },
+  {
+    "id": "29",
+    "destination_name": "Araku Valley",
+    "state": "Andhra Pradesh",
+    "region": "South India"
+  },
+  {
+    "id": "30",
+    "destination_name": "Varkala",
+    "state": "Kerala",
+    "region": "South India"
+  },
+  {
+    "id": "31",
+    "destination_name": "Havelock Island (Swaraj Dweep)",
+    "state": "Andaman and Nicobar Islands",
+    "region": "Island Territory"
+  },
+  {
+    "id": "32",
+    "destination_name": "Neil Island (Shaheed Dweep)",
+    "state": "Andaman and Nicobar Islands",
+    "region": "Island Territory"
+  },
+  {
+    "id": "33",
+    "destination_name": "Shillong",
+    "state": "Meghalaya",
+    "region": "Northeast India"
+  },
+  {
+    "id": "34",
+    "destination_name": "Cherrapunji & Mawsmai Area (Sohra region)",
+    "state": "Meghalaya",
+    "region": "Northeast India"
+  },
+  {
+    "id": "35",
+    "destination_name": "Dawki & Shnongpdeng",
+    "state": "Meghalaya",
+    "region": "Northeast India"
+  },
+  {
+    "id": "36",
+    "destination_name": "Krang Suri Falls",
+    "state": "Meghalaya",
+    "region": "Northeast India"
+  },
+  {
+    "id": "37",
+    "destination_name": "Rishikesh",
+    "state": "Uttarakhand",
+    "region": "North India"
+  },
+  {
+    "id": "38",
+    "destination_name": "Haridwar",
+    "state": "Uttarakhand",
+    "region": "North India"
+  },
+  {
+    "id": "39",
+    "destination_name": "Varanasi (Kashi)",
+    "state": "Uttar Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "40",
+    "destination_name": "Amritsar",
+    "state": "Punjab",
+    "region": "North India"
+  },
+  {
+    "id": "41",
+    "destination_name": "Kanatal",
+    "state": "Uttarakhand",
+    "region": "North India"
+  },
+  {
+    "id": "42",
+    "destination_name": "Binsar",
+    "state": "Uttarakhand",
+    "region": "North India"
+  },
+  {
+    "id": "43",
+    "destination_name": "Munsiyari",
+    "state": "Uttarakhand",
+    "region": "North India"
+  },
+  {
+    "id": "44",
+    "destination_name": "Chakrata",
+    "state": "Uttarakhand",
+    "region": "North India"
+  },
+  {
+    "id": "45",
+    "destination_name": "Kanha National Park",
+    "state": "Madhya Pradesh",
+    "region": "Central India"
+  },
+  {
+    "id": "46",
+    "destination_name": "Ranthambore National Park",
+    "state": "Rajasthan",
+    "region": "North India"
+  },
+  {
+    "id": "47",
+    "destination_name": "Bandhavgarh National Park",
+    "state": "Madhya Pradesh",
+    "region": "Central India"
+  },
+  {
+    "id": "48",
+    "destination_name": "Tadoba Andhari Tiger Reserve",
+    "state": "Maharashtra",
+    "region": "West India"
+  },
+  {
+    "id": "49",
+    "destination_name": "Lakshadweep (Agatti–Bangaram–Kadmat circuit)",
+    "state": "Lakshadweep",
+    "region": "Island Territory"
+  },
+  {
+    "id": "50",
+    "destination_name": "Kalpeni Island (Lakshadweep)",
+    "state": "Lakshadweep",
+    "region": "Island Territory"
+  },
+  {
+    "id": "51",
+    "destination_name": "Jaisalmer (Thar Desert & Fort Town)",
+    "state": "Rajasthan",
+    "region": "West India"
+  },
+  {
+    "id": "52",
+    "destination_name": "Kutch Interior Circuit (Bhuj–Mandvi–Villages)",
+    "state": "Gujarat",
+    "region": "West India"
+  },
+  {
+    "id": "53",
+    "destination_name": "Coorg (Kodagu)",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "54",
+    "destination_name": "Wayanad",
+    "state": "Kerala",
+    "region": "South India"
+  },
+  {
+    "id": "55",
+    "destination_name": "Tamhini Ghat & Mulshi",
+    "state": "Maharashtra",
+    "region": "West India"
+  },
+  {
+    "id": "56",
+    "destination_name": "Mahabaleshwar & Panchgani",
+    "state": "Maharashtra",
+    "region": "West India"
+  },
+  {
+    "id": "57",
+    "destination_name": "Chikmagalur",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "58",
+    "destination_name": "Amboli Ghat",
+    "state": "Maharashtra",
+    "region": "West India"
+  },
+  {
+    "id": "59",
+    "destination_name": "Agumbe & Western Ghats Rainforest Belt",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "60",
+    "destination_name": "Kudremukh & Surrounding Ghats",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "61",
+    "destination_name": "Havelock Island (Swaraj Dweep)",
+    "state": "Andaman and Nicobar Islands",
+    "region": "Island Territory"
+  },
+  {
+    "id": "62",
+    "destination_name": "Neil Island (Shaheed Dweep)",
+    "state": "Andaman and Nicobar Islands",
+    "region": "Island Territory"
+  },
+  {
+    "id": "63",
+    "destination_name": "Port Blair & Nearby Islands",
+    "state": "Andaman and Nicobar Islands",
+    "region": "Island Territory"
+  },
+  {
+    "id": "64",
+    "destination_name": "Darjeeling",
+    "state": "West Bengal",
+    "region": "East India"
+  },
+  {
+    "id": "65",
+    "destination_name": "Gangtok & East Sikkim",
+    "state": "Sikkim",
+    "region": "North East India"
+  },
+  {
+    "id": "66",
+    "destination_name": "North Sikkim (Lachung–Lachen Belt)",
+    "state": "Sikkim",
+    "region": "North East India"
+  },
+  {
+    "id": "67",
+    "destination_name": "Meghalaya (Shillong–Cherrapunji–Mawlynnong circuit)",
+    "state": "Meghalaya",
+    "region": "North East India"
+  },
+  {
+    "id": "68",
+    "destination_name": "Kaziranga National Park & Assam Tea Belt",
+    "state": "Assam",
+    "region": "North East India"
+  },
+  {
+    "id": "69",
+    "destination_name": "Khajuraho & Panna National Park",
+    "state": "Madhya Pradesh",
+    "region": "Central India"
+  },
+  {
+    "id": "70",
+    "destination_name": "Orchha & Nearby Betwa Landscapes",
+    "state": "Madhya Pradesh",
+    "region": "Central India"
+  },
+  {
+    "id": "71",
+    "destination_name": "Gokarna",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "72",
+    "destination_name": "Almora & Kasar Devi Belt",
+    "state": "Uttarakhand",
+    "region": "North India"
+  },
+  {
+    "id": "73",
+    "destination_name": "Tawang",
+    "state": "Arunachal Pradesh",
+    "region": "North East India"
+  },
+  {
+    "id": "74",
+    "destination_name": "Spiti Valley",
+    "state": "Himachal Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "75",
+    "destination_name": "Jibhi & Tirthan Valley",
+    "state": "Himachal Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "76",
+    "destination_name": "Chitkul & Baspa Valley",
+    "state": "Himachal Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "77",
+    "destination_name": "Miyar Valley",
+    "state": "Himachal Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "78",
+    "destination_name": "Keoladeo National Park (Bharatpur Bird Sanctuary)",
+    "state": "Rajasthan",
+    "region": "North India"
+  },
+  {
+    "id": "79",
+    "destination_name": "Ranganathittu Bird Sanctuary",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "80",
+    "destination_name": "Nal Sarovar Bird Sanctuary",
+    "state": "Gujarat",
+    "region": "West India"
+  },
+  {
+    "id": "81",
+    "destination_name": "Great Rann of Kutch (White Desert)",
+    "state": "Gujarat",
+    "region": "West India"
+  },
+  {
+    "id": "82",
+    "destination_name": "Jaisalmer & Thar Desert Dunes",
+    "state": "Rajasthan",
+    "region": "West India"
+  },
+  {
+    "id": "83",
+    "destination_name": "Maravanthe & Karnataka Offbeat Coast",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "84",
+    "destination_name": "Astaranga & Ramachandi Beaches (Odisha Quiet Coast)",
+    "state": "Odisha",
+    "region": "East India"
+  },
+  {
+    "id": "85",
+    "destination_name": "Unakoti & North Tripura Heritage Belt",
+    "state": "Tripura",
+    "region": "North East India"
+  },
+  {
+    "id": "86",
+    "destination_name": "Mamallapuram (Mahabalipuram) & Coromandel Heritage Coast",
+    "state": "Tamil Nadu",
+    "region": "South India"
+  },
+  {
+    "id": "87",
+    "destination_name": "Hidden Goa Coves (Butterfly & Nearby Beaches)",
+    "state": "Goa",
+    "region": "West India"
+  },
+  {
+    "id": "88",
+    "destination_name": "Bangaram & Kadmat Islands (Lakshadweep Quiet Beaches)",
+    "state": "Lakshadweep",
+    "region": "Island Territory"
+  },
+  {
+    "id": "89",
+    "destination_name": "Malanad–Malabar Backwater & Rural Belt",
+    "state": "Kerala & Karnataka (bordering regions)",
+    "region": "South India"
+  },
+  {
+    "id": "90",
+    "destination_name": "Krishna Heritage Circuit (Mathura–Vrindavan–Dwarka Focus)",
+    "state": "Uttar Pradesh, Gujarat, others",
+    "region": "Multi-state"
+  },
+  {
+    "id": "91",
+    "destination_name": "Rishikesh & Haridwar (Himalayan Yoga Route)",
+    "state": "Uttarakhand",
+    "region": "North India"
+  },
+  {
+    "id": "92",
+    "destination_name": "Varanasi Ganga Ghats Pilgrimage",
+    "state": "Uttar Pradesh",
+    "region": "North India"
+  },
+  {
+    "id": "93",
+    "destination_name": "Bodh Gaya Buddhist Circuit Hub",
+    "state": "Bihar",
+    "region": "East India"
+  },
+  {
+    "id": "94",
+    "destination_name": "Rameswaram & Pamban Coast (Sacred Water Walk)",
+    "state": "Tamil Nadu",
+    "region": "South India"
+  },
+  {
+    "id": "95",
+    "destination_name": "Hampi & Pattadakal (UNESCO Vijayanagara–Chalukya Circuit)",
+    "state": "Karnataka",
+    "region": "South India"
+  },
+  {
+    "id": "96",
+    "destination_name": "Gulmarg (Kashmir Ski & Snow Destination)",
+    "state": "Jammu and Kashmir",
+    "region": "North India"
+  },
+  {
+    "id": "97",
+    "destination_name": "Auli (Garhwal Ski & Snow Resort)",
+    "state": "Uttarakhand",
+    "region": "North India"
+  },
+  {
+    "id": "98",
+    "destination_name": "Tiruvannamalai & Arunachala (Inner Fire Journey)",
+    "state": "Tamil Nadu",
+    "region": "South India"
+  },
+  {
+    "id": "99",
+    "destination_name": "Amarkantak Nature–Spiritual Loop",
+    "state": "Madhya Pradesh / Chhattisgarh border",
+    "region": "Central India"
+  },
+  {
+    "id": "100",
+    "destination_name": "Haridwar–Rishikesh–Char Dham Spiritual Trail (Meta‑Circuit Node)",
+    "state": "Uttarakhand",
+    "region": "North India"
+  }
+]
